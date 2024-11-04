@@ -1,6 +1,6 @@
 # 50_frontend_projects-5_hidden_search
 
-Frontend practicing projects 5/50. 
+5/50 Frontend practicing projects [Collection](https://github.com/yswnqc/50_frontend_projects-collection).
 
 [DEMO](https://yswnqc.github.io/50_frontend_projects-5_hidden_search/) here.
 
