@@ -67,6 +67,8 @@ h1 {
 input {
   background-color: transparent;
   border: none;
+  border-radius: 0;
+  box-shadow: none;
   height: 50px;
   width: 50px;
   font-size: 18px;
@@ -93,6 +95,7 @@ button {
 .icon {
   font-size: 30px;
   font-weight: bold;
+  color: black;
 }
 
 .container.active {

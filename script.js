@@ -1,13 +1,15 @@
-const container = document.querySelector('.container');
-const inputBox = document.querySelector('input');
-const searchBtn = document.querySelector('button');
+const container = document.querySelector(".container");
+const inputBox = document.querySelector("input");
+const searchBtn = document.querySelector("button");
 
-searchBtn.addEventListener('click', () => {
-  if (container.classList.toggle('active')) {
-    inputBox.classList.remove('delay');
+searchBtn.onmouseout();
+
+searchBtn.addEventListener("click", () => {
+  if (container.classList.toggle("active")) {
+    inputBox.classList.remove("delay");
     inputBox.focus();
   } else {
-    inputBox.classList.add('delay');
+    inputBox.classList.add("delay");
   }
 });
 
