@@ -2,8 +2,6 @@ const container = document.querySelector(".container");
 const inputBox = document.querySelector("input");
 const searchBtn = document.querySelector("button");
 
-searchBtn.onmouseout();
-
 searchBtn.addEventListener("click", () => {
   if (container.classList.toggle("active")) {
     inputBox.classList.remove("delay");
@@ -11,6 +9,7 @@ searchBtn.addEventListener("click", () => {
   } else {
     inputBox.classList.add("delay");
   }
+  searchBtn.onmouseout();
 });
 
 //加了一个按钮的特效
