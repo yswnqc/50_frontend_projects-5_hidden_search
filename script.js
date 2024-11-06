@@ -9,7 +9,6 @@ searchBtn.addEventListener("click", () => {
   } else {
     inputBox.classList.add("delay");
   }
-  searchBtn.onmouseout();
 });
 
 //加了一个按钮的特效
